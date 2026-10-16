@@ -1,3 +1,60 @@
+I've created a Bash equivalent called convert_for_ps5.sh using AI-assisted (vibe-coded) development. I've tested the script on Linux and confirmed that it works as expected.
+
+It preserves the original FFmpeg encoding settings and supports converting multiple video files in one go, making the workflow more accessible for Linux users.
+How to use it
+
+Requirements
+
+Linux
+
+FFmpeg installed on the system or included in the same directory as the script
+
+1. Install FFmpeg
+
+On Ubuntu or Debian-based distributions:
+
+sudo apt update
+sudo apt install ffmpeg
+
+2. Make the script executable
+
+chmod +x convert_for_ps5.sh
+
+3. Convert videos
+
+Convert a single video:
+
+./convert_for_ps5.sh video.mkv
+
+Convert multiple videos at once:
+
+./convert_for_ps5.sh video1.mkv video2.mov video3.avi
+
+The converted files are saved alongside the original videos with _ps5.mp4 appended to their filenames.
+
+Output specifications
+
+MP4 container
+
+H.264 video (High Profile, Level 4.2)
+
+1920×1080 resolution
+
+Original aspect ratio preserved, with black bars where necessary
+
+Maximum 60 fps
+
+AAC stereo audio at 48 kHz and 192 kbps
+
+Fast-start MP4 for improved playback compatibility
+
+AI disclosure
+
+The script was created with AI assistance using a vibe-coding approach. I reviewed and tested it on Linux to verify that it works as expected.
+
+I'd be happy to contribute the script through a pull request if you'd like to include it in the project.
+
+Thanks for your work on LiveShell Engine!
 <p align="center">
   <img src="assets/icon0.png" width="140" alt="LiveShell Engine">
 </p>
