@@ -1,3 +1,5 @@
+ALL CREDITS TO: https://github.com/ZiZc3
+
 I've created a Bash equivalent called convert_for_ps5.sh using AI-assisted (vibe-coded) development. I've tested the script on Linux and confirmed that it works as expected.
 
 It preserves the original FFmpeg encoding settings and supports converting multiple video files in one go, making the workflow more accessible for Linux users.
