@@ -51,10 +51,6 @@ Fast-start MP4 for improved playback compatibility
 AI disclosure
 
 The script was created with AI assistance using a vibe-coding approach. I reviewed and tested it on Linux to verify that it works as expected.
-
-I'd be happy to contribute the script through a pull request if you'd like to include it in the project.
-
-Thanks for your work on LiveShell Engine!
 <p align="center">
   <img src="assets/icon0.png" width="140" alt="LiveShell Engine">
 </p>
